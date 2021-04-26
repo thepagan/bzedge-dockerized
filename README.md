@@ -4,7 +4,7 @@
 
 
 # BZEdge
-**Keep running wallet to strengthen the BZEdge network. Backup your wallet in many locations & keep your coins wallet offline. Copy your BitcoinZ wallet into BZEdge folder.**
+**Keep running wallet to strengthen the BZEdge network. Backup your wallet in many locations & keep your coins wallet offline.**
 
 ### Ports:
 - RPC port: 1980
