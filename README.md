@@ -17,4 +17,4 @@ Install
 
 Clone this repository
 
-docker build -t bzedged .
+docker build -t thepagan/bzedged .
