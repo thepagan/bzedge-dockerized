@@ -15,6 +15,6 @@ Install
 
 ## Docker
 
-Clone this repository
+Container is available on DockerHub
 
-docker build -t thepagan/bzedged .
+docker pull thepagan/bzedged
