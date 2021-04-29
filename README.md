@@ -18,5 +18,5 @@ Install
 Container is available on DockerHub
 
 ```
-docker pull thepagan/bzedged
+docker pull thepagan/bzedged:latest
 ```
