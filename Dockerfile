@@ -24,6 +24,7 @@ RUN CONFIGURE_FLAGS="--enable-debug --disable-tests --disable-bench" HOST=x86_64
 RUN ./$HOME/bzedge/zcutil/fetch-params.sh
 RUN touch $HOME/.bzedge/bzedge.conf
 RUN echo 'addnode=167.86.99.150' >> $HOME/.bzedge/bzedge.conf
+RUN sudo ln -s /$HOME/bzedge/src/bzedge-cli /usr/bin/
 EXPOSE 1980
 EXPOSE 1990
 

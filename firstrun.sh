@@ -26,10 +26,10 @@ EOF
 sudo chown root:root /etc/systemd/system/bzedged.service
 sudo systemctl daemon-reload
 sudo systemctl enable bzedged.service > /dev/null 2>&1
-sudo systemctl start bzedged.service
 sleep 4
 RPCUSER=$(pwgen -1 8 -n)
 PASSWORD=$(pwgen -1 20 -n)
 echo "rpcport=1980" >> ~/.bzedge/bzedge.conf
 echo 'rpcuser=$RPCUSER >> ~/.bzedge/bzedge.conf
 echo 'rpcpassword=$PASSWORD' >> ~/.bzedge/bzedge.conf
+sudo systemctl start bzedged.service
